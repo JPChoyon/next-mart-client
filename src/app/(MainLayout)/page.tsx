@@ -4,7 +4,7 @@ import React from "react";
 
 const HomePage = async () => {
   const user = await getCurrentUser();
-  console.log(user);
+
   return (
     <div>
       <Button>Click me</Button>
